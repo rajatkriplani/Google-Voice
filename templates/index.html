@@ -1,8 +1,10 @@
+<!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Google Voice UI with Enhanced Mic Icon</title>
+  <title>Chat Bot with Gemini API</title>
+  <!-- Link to the CSS file -->
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
 </head>
 <body>
@@ -23,6 +25,12 @@
     </div>
   </div>
 
+  <!-- A simple chat window to display messages -->
+  <div id="chat-window">
+    <!-- Chat messages will appear here -->
+  </div>
+
+  <!-- Link to the JavaScript file -->
   <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>
