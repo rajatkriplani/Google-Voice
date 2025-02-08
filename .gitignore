@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+
+# Flask instance folder (if used)
+instance/
+
+# Flask cache folder
+.webassets-cache/
+
+# Environment variables file
+.env
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Static files build (if using something like webpack)
+node_modules/
+
+# Others (add as necessary)
